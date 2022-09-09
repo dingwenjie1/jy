@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>百科</title>
+
+
+<link rel="stylesheet" href="css/splitting.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div id="app" data-current-planet="mercury">
+  <nav class="planet-nav">
+    <svg viewBox="0 20 400 400" xmlns="http://www.w3.org/2000/svg">
+        <path 
+            id="navPath" 
+            d="M10,200 C30,-28 370,-28 390,200"
+            fill="none" />
+      <text>
+        <textPath href="#navPath" startOffset="0" font-size="8">
+		  
+          <tspan>水星</tspan>
+          <tspan>金星</tspan>
+          <tspan>地球</tspan>
+          <tspan>火星</tspan>
+          <tspan>木星</tspan>
+          <tspan>土星</tspan>
+          <tspan>天王星</tspan>
+          <tspan>海王星</tspan>
+
+        </textPath>
+      </text>
+
+    </svg>
+  </nav>
+
+  <div class="planet" data-planet="mercury" data-active>
+    <div class="planet-title">
+      <h1>水星</h1>
+      <p>水星（英语：Mercury；拉丁语：Mercurius），因快速运动，欧洲古代称它为墨丘利（Mercury），意为古罗马神话中飞速奔跑的信使神。中国古称辰星，西汉《史记‧天官书》的作者司马迁从实际观测发现辰星呈灰色，与五行学说联系在一起，以黑色属水，将其命名为水星。<br>水星是太阳系的八大行星中最小且最靠近太阳的行星。轨道周期是87.9691天，116天左右与地球会合一次，公转速度远远超过太阳系的其它行星。水星是表面昼夜温差最大的行星，大气层极为稀薄无法有效保存热量，白天时赤道地区温度可达432°C，夜间可降至-172°C。水星的轴倾斜是太阳系所有行星中最小的（大约1⁄30度），但有最大的轨道偏心率。水星在远日点的距离大约是在近日点的1.5倍。<br></p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        3.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        0.9
+      </div>
+      <div class="detail" data-detail="hours">
+        10
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/1_mercury.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="venus">
+    <div class="planet-title">
+      <h1>金星</h1>
+      <p>金星（英语、拉丁语：Venus，天文符号：♀），在太阳系的八大行星中，是从太阳向外的第二颗行星，轨道公转周期为224.7天，没有天然的卫星。金星在中国古代称为太白、明星或大嚣，早晨出现于东方称启明，晚上出现于西方称长庚。到西汉时期，《史记‧天官书》作者司马迁从实际观测发现太白为白色，与“五行”学说联系在一起，正式把它命名为金星。英文名称源自罗马神话的爱与美的女神维纳斯（Venus），古希腊人称为阿佛洛狄忒，也是希腊神话中爱与美的女神。<br>金星在夜空中的亮度仅次于月球，是第二亮的天体，视星等可以达到-4.7等，足以在地面照射出影子。金星是一颗与地球相似的类地行星，常被称为地球的姊妹星。</p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        4.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        0.2
+      </div>
+      <div class="detail" data-detail="hours">
+        20
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/2_venus.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="earth">
+    <div class="planet-title">
+      <h1>地球</h1>
+      <p>地球（英文名：Earth；拉丁文：Terra）是距离太阳的第三颗行星，也是目前人类已知的唯一孕育和支持生命的天体。地球表面的大约 29.2% 是由大陆和岛屿组成的陆地。<br>地球的大气主要由氮和氧组成。热带地区接收的太阳能多于极地地区，并通过大气和海洋环流重新分配。温室气体在调节地表温度方面也发挥着重要作用。<br>地球的引力会与太空中的其他物体相互作用，尤其是月球，它是地球唯一的天然卫星。地球绕太阳公转一周大约需要 365.25 天。</p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        5.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        7.3
+      </div>
+      <div class="detail" data-detail="hours">
+        30
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/3_earth.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="mars">
+    <div class="planet-title">
+      <h1>火星</h1>
+      <p>火星（英语：Mars；拉丁语：Martis；天文符号：♂），是离太阳第四近的行星，也是太阳系中仅次于水星的第二小的行星，为太阳系里四颗类地行星之一。<br>
+其橘红色外表是因为地表被赤铁矿（氧化铁）覆盖，火星的直径约为地球的一半，自转轴倾角和自转周期则与地球相近，但公转周期是地球的两倍。火星亮度最高可达-2.9等，但在大部分时间里比木星暗。<br>
+火星大气以二氧化碳为主（95.3%），既稀薄又寒冷，遍布撞击坑、峡谷、沙丘和砾石，没有稳定的液态水。<br>
+</p>	  
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        6.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        1.1
+      </div>
+      <div class="detail" data-detail="hours">
+        40
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/4_mars.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="jupiter">
+    <div class="planet-title">
+      <h1>木星</h1>
+      <p>木星（Jupiter）是距离太阳第五近的行星，也是太阳系中体积最大的行星。截至2019年，木星已知有79颗卫星。<br>
+古人早已认识这颗行星 ，罗马人以主神朱庇特命名这颗行星。古代中国则称木星为岁星，取其绕行天球一周约为12年，与地支相同之故。到西汉时期，《史记‧天官书》作者司马迁从实际观测发现岁星呈青色，与“五行”学说联系在一起，正式把它命名为“木星”。
+从<br>
+</p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        11.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        1.8
+      </div>
+      <div class="detail" data-detail="hours">
+        50
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/5_jupiter.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="saturn">
+    <div class="planet-title">
+      <h1>土星</h1>
+      <p>土星（英文：Saturn，拉丁文：Saturnus，符号：♄），是太阳系八大行星之一，到太阳的距离排在太阳系第六位。古代中国土星是中国古代人根据五行学说结合肉眼观测到的土星的颜色（黄色）来命名的，亦称之为镇星（常写作填星）。土星的英文名称Saturn来自于罗马神话中的农业之神萨图恩。<br>
+土星是气态巨行星，主要由氢组成，还有少量的氦与少量元素，内部的核心包括岩石和冰，外围由数层金属氢和气体包覆着。土星的风速高达1800千米/时，风速明显比木星快。土星有一个显著的行星环系统，主要的成分是冰的微粒和较少数的岩石残骸以及尘土。2019年确认的土星的卫星有82颗，是八大行星中最多的一个。
+</p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        9.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        7.3
+      </div>
+      <div class="detail" data-detail="hours">
+        60
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/6_saturn.jpg" />
+    </figure>
+  </div>
+
+  <div class="planet" data-planet="uranus">
+    <div class="planet-title">
+      <h1>天王星</h1>
+      <p>天王星（英文：Uranus，天文符号：⛢，占星符号：♅），为太阳系八大行星之一，是太阳系由内向外的第七颗行星（18.37~20.08天文单位），其体积在太阳系中排名第三（比海王星大），质量排名第四（小于海王星），几乎横躺着围绕太阳公转。封面图为旅行者2号飞掠天王星最近时拍摄的照片。<br>
+天王星是第一颗使用望远镜发现的行星。威廉·赫歇尔在1781年3月13日于自宅庭院中发现了这颗行星。天王星和海王星的内部和大气构成和更巨大的气态巨行星（木星、土星）不同，天文学家设立了冰巨星分类来定义它们。天王星拥有27颗已知天然卫星，其中有5颗规模较大，另外还有13条较为暗弱的行星环。<br></p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        11.13
+      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        1.8
+      </div>
+      <div class="detail" data-detail="hours">
+        50
+      </div>    </div>
+
+    <figure class="planet-figure">
+      <img src="img/7_uranus.jpg" />
+    </figure>
+  </div>
+
+
+  <div class="planet" data-planet="neptune">
+    <div class="planet-title">
+      <h1>海王星</h1>
+      <p>海王星（英语：Neptune，天文符号：♆）是太阳系八大行星之一，也是已知太阳系中离太阳最远的大行星。海王星的轨道半长轴为30.07天文单位，公转周期为164.8年，质量为17.147地球质量（第3位，比它的近邻天王星稍大），半径为3.86地球半径（第4位） 。<br>
+海王星的视星等最高约为7.67等，需要借助天文望远镜才能观察。海王星对肉眼呈蓝色，西方人据此按罗马神话中的海神尼普顿（Neptune）的名字而命名。李善兰等人于1859年翻译《谈天》时，将其中文译文定为海王星。<br>
+</p>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail" data-detail="tilt" data-postfix="°">
+        31.03      </div>
+      <div class="detail" data-detail="gravity" data-postfix="𝗑">
+        8.9      </div>
+      <div class="detail" data-detail="hours">
+        10
+      </div>
+    </div>
+
+    <figure class="planet-figure">
+      <img src="img/8_neptune.jpg" />
+    </figure>
+  </div>
+</div>
+
+
+<script src='js/splitting.min.js'></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
